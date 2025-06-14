@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 2px solid #007aff;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.lang {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.small-logo {
+    height: 30px;
+}
+
+.offer {
+    color: #ff4d00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    color: #001064;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.role-selector {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+.role-selector button {
+    flex: 1;
+    padding: 15px 0;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.role-selector .active {
+    background: white;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.qr-login {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    background-color: #ff9c80;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #ff7a5e;
+}
